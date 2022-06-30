@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+#telalogin {
+    height: 500px;
+    width: 350px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgb(0, 110, 255);
+    border-radius: 30px;
+    background: rgba(47, 4, 204, 0.8);
+}
+#fundo {
+    width: 390px;
+    height: 844px;
+    background: url("../img/bgfhd.png");
+    /* background-image: url("../img/bg.png"); */
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.form-group {
+    margin-top: 25px;
+    height: 158px;
+    width: 320px;
+}
+#nome {
+    text-indent: 55px;
+    height: 60px;
+    border-radius: 15px;
+}
+#senha {
+    text-indent: 55px;
+    height: 60px;
+    border-radius: 15px;
+}
+#botao {
+    margin-top: 10%;
+    padding-bottom: 2%;
+}
+#fintech {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+}
+#textologin {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+#user-icon {
+    position: absolute;
+    top: 74px;
+    left: 28px;
+    color: rgb(156, 156, 156)
+}
+#pwd-icon {
+    position: absolute;
+    top: 161px;
+    left: 30px;
+    color: rgb(156, 156, 156)
+}
+#forgot {
+    margin-left: 25%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+#sign-up {
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+#digital-switch {
+    position: absolute;
+    left: 28%;
+    top: 70.4%;
+    width: 47px;
+    height: 25px;
+}
+#digital-text {
+    position: absolute;
+    left: 33%;
+    top: 69.5%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+}
+#digital-icon {
+    position: absolute;
+    left: 75%;
+    top: 69.5%;
+    color: white;
+    opacity: 0.7;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#digital-icon:hover {
+    color: rgb(0, 255, 255);
+}
+#cadastre-se {
+    color: aqua;
+    text-decoration: none;
+}
+#forgot:hover {
+    color: rgb(0, 255, 255);
+}
+#cadastre-se:hover {
+    color: rgb(255, 255, 255);
+}
